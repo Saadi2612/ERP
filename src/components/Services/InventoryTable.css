@@ -1,0 +1,18 @@
+table {
+    width: 400px;
+}
+
+.inv-table {
+    border-collapse: collapse;
+}
+
+.inv-table th,
+.inv-table td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+.inv-table tr, .inv-table tr {
+    width: 200px;
+}

@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.btn {
+  font-size: 14px !important;
+  font-weight: 600 !important;
+
+  line-height: 1;
+  text-align: center;
+  padding: 0.655rem 10.975rem !important;
+  border: 0 none;
+  border-radius: 10px !important;
+  outline: 0 none;
+  position: relative;
+  z-index: 1;
+  font-family: "Poppins";
+}
+.SignUp_section_class {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 95vh;
+  width: "100%";
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+.landing-page-hero-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 550px;
+  /* width: "100%"; */
+  border-radius: 12px;
+  background: #f2f5fe;
+  /* background-si/ze: cover; */
+  background-image: radial-gradient(
+      circle at 0px 0px,
+      #888 0px,
+      transparent 0px
+    ),
+    radial-gradient(circle at 5px 5px, #acb5be33 2px, transparent 1px);
+  background-size: 20px 20px;
+  border-radius: 50%;
+}
+.landing-page-get-started-button {
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  background-color: #4666ff;
+  line-height: 1;
+  text-align: center;
+  padding: 0.655rem 4.975rem !important;
+  border: 0 none;
+  border-radius: 10px !important;
+  outline: 0 none;
+  position: relative;
+  z-index: 1;
+  font-family: "Poppins";
+}
+.selected {
+  border: 1px solid #2454ff;
+  border-color: #2454ff;
+  /* color: #41567f!important; */
+}
+.testerCarrierY-N {
+  background-color: #ffffff;
+  background-image: var("");
+  color: #333333;
+  border: 1px solid #e5ebf1;
+  padding: 0px;
+  /* margin: 10px; */
+  border-radius: 16px;
+  font-size: 1rem;
+  width: 14rem;
+
+  height: 14rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.testerCarrierY-N-bg {
+  background-color: #f1f6ff;
+  background-image: var("");
+  color: #333333;
+  border: 1px solid #e5ebf1;
+  padding: 0px;
+  /* margin: 10px; */
+  border-radius: 16px;
+  font-size: 1rem;
+  width: 14rem;
+
+  height: 14rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
